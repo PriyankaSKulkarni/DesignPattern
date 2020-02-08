@@ -13,8 +13,7 @@ namespace singelton
             Parallel.Invoke(
                 () => PrintUser1Details(),
                 () => PrintUser2details(),
-                () => PrintUser3details()
-               
+                () => PrintUser3details()               
                 );
             Console.ReadLine();
         }
